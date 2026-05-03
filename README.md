@@ -58,15 +58,13 @@ Inside your copied Google Doc:
 
 ---
 
-### Step 4 — Deploy the Extension
+### **Step 4 — Initialize the Engine**
 
-Still inside Apps Script:
-
-1. Click **"Deploy"** → **"New Deployment"**
-2. Click the gear icon ⚙️ next to **"Type"** and select **"Add-on"**
-3. Hit **"Deploy"**
-4. Google will ask you to authorize the script — click through the permissions (it needs access to your Doc and the internet to call the AI)
-5. Once deployed, **close the Apps Script tab** and go back to your Doc
+1.   **Trigger the Auth Flow** — Once the **📖 InkSight** menu appears in your toolbar, click **Open Sidebar**. Because this is a fresh copy, Google needs your permission to connect the script to the Gemini AI.
+2.   **Navigate the Security Check** — When the "Authorization Required" window pops up, click **Continue**. 
+3.   **Grant Access** — Select your Google Account. On the next screen, click **Advanced** at the bottom, then click **"Go to InkSight (unsafe)"** (don't worry, this is just Google's way of saying I'm an independent dev and haven't paid for a corporate license yet!).
+4.   **Finalize Permissions** — Click **Allow** on the final screen. The script is now officially linked to your document and ready to call the AI.
+5.   **Ready to Roll** — The sidebar will now load on the right. You can now close any extra Google tabs and start writing!
 
 ---
 
